@@ -7,17 +7,22 @@ app.use(express.static(__dirname + "/public"));
 
 
 app.get("/", (request, response, next) => {
-    response.render("home.hbs");
+    response.render("home.hbs", {
+        css: ["home.css"]
+    })
 });
 
-
 app.get("/about", (req, res, next) => {
-    res.render("about.hbs")
+    res.render("about.hbs", {
+        css: ["about.css"]
+    })
 });
   
 
 app.get("/works", (req, res, next) => {
-    res.render("works.hbs");
+    res.render("works.hbs", {
+        css: ["works.css"]
+    })
   });
 
 
