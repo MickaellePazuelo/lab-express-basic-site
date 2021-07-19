@@ -1,4 +1,9 @@
 body {
     color: rgb(247, 30, 66);
     font-style: oblique;
+    
+}
+
+img {
+    width: 50%;
 }

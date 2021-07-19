@@ -6,3 +6,11 @@ h1 {
     text-decoration: underline;
     font-style: italic;
 }
+
+img{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
